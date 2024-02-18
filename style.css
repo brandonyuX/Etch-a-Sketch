@@ -1,0 +1,32 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.size-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    /* Set initial width */
+    height: 80%;
+    /* Set initial height */
+    margin: auto;
+    /* Center the grid */
+}
+
+.grid-item {
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
